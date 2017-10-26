@@ -1,0 +1,324 @@
+body {}
+
+a {
+  color: #666;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#cainiao {
+  background-color: #fff;
+}
+
+#cainiao ul li {
+  padding: 5px 0px;
+  line-height: 60px;
+}
+
+.nav-top {
+  background: #fff;
+}
+
+.top .nav-top>nav {
+  margin-bottom: 0;
+}
+
+.login {
+  font-size: 12px;
+  line-height: 60px;
+  font-family: "微软雅黑";
+}
+
+.row .thumbnail {
+  border: none;
+}
+
+.nav-bottom {
+  background-color: #f5f2ee;
+  margin-top: 60px;
+}
+
+.my-btn, .my-btn span {
+  border: 1px solid #948e88;
+}
+
+.my-img img {
+  width: 100%;
+  height: 100%;
+  max-height: 480px;
+  max-width: 1615px;
+}
+
+.yizhan {
+  padding: 100px 0;
+}
+
+.yizhan p:nth-child(1) {
+  font-size: 2.5vw;
+  font-weight: bold;
+  color: rgb(226, 71, 5);
+}
+
+.yizhan p:nth-child(2), .yizhan p:nth-child(3) {
+  font-size: 1.2vw;
+}
+
+.mian>div {
+  padding-top: 50px;
+}
+
+.box {
+  height: 210px;
+  background-color: rgb(249, 249, 249);
+  max-width: 250px;
+  margin: 0 auto;
+  margin-top: 20px;
+  position: relative;
+}
+
+.my-row div .icon {
+  width: 110px;
+  height: 110px;
+  display: inline-block;
+  background: url(../image/jinling2.png) no-repeat;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+.my-row div:nth-child(1) .icon {
+  background-position: 0px -71px;
+}
+
+.my-row div:nth-child(2) .icon {
+  background-position: -120px -71px;
+}
+
+.my-row div:nth-child(3) .icon {
+  background-position: -240px -71px;
+}
+
+.my-row div:nth-child(4) .icon {
+  background-position: -360px -71px;
+}
+
+.my-row .my-p {
+  width: 140px;
+  height: 110px;
+  position: absolute;
+  line-height: 25px;
+  right: 0;
+  bottom: 0px;
+  margin: 0;
+  padding: 8px;
+  background: none;
+}
+
+.mian .container {
+  margin-top: 50px;
+}
+
+.my-row .my-p p {
+  font-size: 1vw;
+  color: #000;
+  font-weight: normal;
+}
+
+.my-row div .icon-top {
+  width: 46px;
+  height: 42px;
+  background: url("../image/jingling.png") no-repeat;
+  position: absolute;
+  right: 15px;
+  top: 30px;
+}
+
+.my-row div:nth-child(1) .icon-top {
+  background-position: 0px 0px;
+}
+
+.my-row div:nth-child(2) .icon-top {
+  background-position: -50px 0px;
+}
+
+.my-row div:nth-child(3) .icon-top {
+  background-position: -95px 0px;
+}
+
+.my-row div:nth-child(4) .icon-top {
+  background-position: -145px 0px;
+}
+
+.hezuo {
+  height: 100%;
+  padding-bottom: 30px;
+  background: url(../image/hezuo.jpg) no-repeat bottom;
+  background-color: rgb(249, 249, 249);
+}
+
+.hezuo>p:nth-child(1) {
+  font-size: 2.5vw;
+  font-weight: bold;
+  color: rgb(226, 71, 5);
+}
+
+.hezuo-box {
+  width: 290px;
+  height: 350px;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.hezuo-box .icon {
+  width: 100%;
+  height: 153px;
+  background: url("../image/jinling2.png") no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.des {
+  margin-top: 143px;
+  padding: 20px;
+  /*position: absolute;*/
+  font-size: 1vw;
+}
+
+.my-hz div:nth-child(1) .icon {
+  background-position: 0px -193px;
+}
+
+.my-hz div:nth-child(2) .icon {
+  background-position: 0px -361px;
+}
+
+.my-hz div:nth-child(3) .icon {
+  background-position: 0px -528px;
+}
+
+.des p::before {
+  content: "◆";
+  color: orange;
+  font-size: 0.1vw;
+  margin-left: -14px;
+}
+
+.liucheng {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: relative;
+}
+
+.liucheng p:nth-child(2), .liucheng p:nth-child(3) {
+  color: #a1a2a3;
+  font-size: 17px;
+}
+
+.liucheng>p:nth-child(1) {
+  font-size: 2.5vw;
+  font-weight: bold;
+  color: rgb(226, 71, 5);
+}
+
+
+/*.row hr {
+  width: 855px;
+  border: 1px dashed #ddd;
+  text-align: center;
+  top: 180px;
+  left: 475px;
+  position: absolute;
+}*/
+
+.liucheng .icon {
+  width: 66px;
+  height: 66px;
+  display: block;
+  background: url("../image/jingling.png") no-repeat;
+  margin: 0 auto;
+}
+
+.my-lc {
+  margin-top: 30px;
+}
+
+.my-lc div:nth-child(1) .icon {
+  background-position: 0px -45px;
+}
+
+.my-lc div:nth-child(2) .icon {
+  background-position: -67px -45px;
+}
+
+.my-lc div:nth-child(3) .icon {
+  background-position: -134px -45px;
+}
+
+.my-lc div:nth-child(4) .icon {
+  background-position: -201px -45px;
+}
+
+.my-lc .des {
+  margin: 0;
+}
+
+.my-lc .des p:nth-child(1) {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "微软雅黑"
+}
+
+.my-lc .des p span {
+  color: red;
+}
+
+.my-lc .des>p::before {
+  content: "";
+}
+
+.lc-box {
+  margin: 0 auto;
+}
+
+.mh p:nth-child(1) {
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(226, 71, 5);
+}
+
+.zhandian {
+  width: 100%;
+}
+
+.mian .my-container {
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 50px;
+}
+
+.my-container .carousel img {
+  width: 100%;
+}
+
+.banner-nav {
+  border: 1px solid #ddd;
+  max-width: 1140px;
+}
+
+.banner-nav ul li {
+  height: 30px;
+  list-style-type: none;
+  line-height: 40px;
+}
+
+.banner-nav ul li:hover {
+  color: orange;
+  cursor: pointer;
+}
